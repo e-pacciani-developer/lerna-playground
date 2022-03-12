@@ -20,5 +20,9 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "start": "lerna run start --stream"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@e-pacciani-developer"
+  },
+  "repository": "https://github.com/e-pacciani-developer/lerna-playground"
 }
