@@ -7,6 +7,10 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@e-pacciani-developer"
+  },
+  "repository": "https://github.com/e-pacciani-developer/lerna-playground",
   "engines": {
     "node": ">=10"
   },
