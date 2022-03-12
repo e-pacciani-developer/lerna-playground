@@ -1,13 +1,16 @@
 {
   "name": "@isendu/components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common components for React apps",
   "author": "e-pacciani-developer",
   "license": "MIT",
-  "repository": "e-pacciani-developer/components",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@e-pacciani-developer"
+  },
+  "repository": "https://github.com/e-pacciani-developer/lerna-playground",
   "engines": {
     "node": ">=10"
   },
