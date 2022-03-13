@@ -6,7 +6,7 @@ type HeaderProps = { myText: string };
 function Header({ myText }: HeaderProps) {
   return (
     <Flex justifyContent='space-between'>
-      <Text size='xl' color='#e50000'>
+      <Text size='xl' color='red'>
         {myText}
       </Text>
       <Text size='xl'>Logout</Text>
